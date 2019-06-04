@@ -1,0 +1,25 @@
+body {
+  background-color: palegreen;
+  margin: 0;
+  font-family: monospace;
+}
+
+header {
+  background-color: #201d57;
+  color: white;
+  display: fixed;
+  height: auto;
+  width: 105vw;
+  margin: 0;
+  padding: 1em 0;
+  text-align: center;
+  font-size: 3em;
+}
+
+main {
+  margin: 1em;
+}
+
+.main-title{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
