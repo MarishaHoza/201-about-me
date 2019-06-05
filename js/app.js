@@ -97,7 +97,7 @@ while (remainingResponses > 0 && gotIt === false){
     alert(answeredCorrectly);
     gotIt = true;
     numCorrectResponses++;
-    console.log('correct')
+    console.log('correct');
 
   // if their response is less than the correct answer, decrement their remaining attempts and let them know.
   } else if (guessedNumber < correctAnswers[i]) {
@@ -165,7 +165,7 @@ while (remainingResponses > 0 && gotIt === false) {
       // if they have no more attempts, let them know what the correct answers were
     } else {
       alert(answeredIncorrectly + ' my answers were : ' + top5.join(', '));
-      console.log('no more responses')
+      console.log('no more responses');
     }
   }
 
