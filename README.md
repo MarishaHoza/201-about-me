@@ -1,7 +1,7 @@
 # 201-about-me
 Code fellows 201 "about me" assignment
 Week 1 lab
----
+
 
 ## Purpose
 The purpose of this webpage is to display my skills as a developer and to provide the visitor with information about me.
