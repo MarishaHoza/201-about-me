@@ -14,4 +14,7 @@ The purpose of this webpage is to display my skills as a developer and to provid
  - After closing the last pop-up, information about me will appear on the page
  - The user's quiz score will also be displayed with instructions for how to retake the quiz
 
+## Collaborators 
+Marisha and I had a great time doing pair programming
+Fabian stamped.
 
