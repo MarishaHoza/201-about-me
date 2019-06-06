@@ -33,7 +33,6 @@ var gotIt = false;
 // ----------------------- yes/no quiz questions ----------------------------
 // IF MORE QUESTIONS ARE ADDED TO THE YES / NO SECTION, REMEMBER TO UPDATE THE FOR LOOP BREAK POINT
 var checkResponse = function(input){
-
   if (input === 'y'){
     responses.push('yes');
   } else if (input === 'n'){
@@ -41,7 +40,8 @@ var checkResponse = function(input){
   } else {
     responses.push(input);
   }
-}
+};
+
 var yesNoQuestions = function(){
 
   for (var i = 0; i < 5; i++){
@@ -50,7 +50,7 @@ var yesNoQuestions = function(){
     var temp = prompt(quizQuestions[i]).toLowerCase();
     checkResponse(temp);
     console.log('question ' + i + ' user\'s response was : ' + temp);
-    
+
 
     // if the user answers correctly, display the correct answer text and add to their tally
     if (responses[i] === correctAnswers[i]){
