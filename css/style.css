@@ -3,15 +3,15 @@
 }
 
 body {
-  background-color: #a40a44;
+  background-color: #1E1E55;
   /* margin: 0; */
   min-height: 100vh;
   font-family: monospace;
 }
 
 header {
-  background-color: #a40a44;
-  color: #088542;
+  background-color: #1E1E55;
+  color: #52b9ba;
   display: fixed;
   height: auto;
   width: 101vw;
@@ -23,12 +23,13 @@ header {
 
 footer {
   position: relative;
+  clear: both;
   width: 101vw;
   bottom: -10px;
   left: -10px;
-  background-color: #088542;
+  background-color: #52b9ba;
   height: auto;
-  color: white;
+  color: #1E1E55;
   text-align: center;
   padding: 0.25em;
 }
@@ -36,11 +37,13 @@ footer {
 .title{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
+  color: #52b9ba;
 }
 
 section .title {
   margin-top: 0;
   font-size: 20px;
+  color: #1E1E55;
 }
 
 main>ul {
@@ -48,11 +51,29 @@ main>ul {
 }
 
 section {
+  float: left;
   box-shadow: 2px 3px 2px 3px rgb(32, 32, 32, 0.5);
   border-radius: 30px 10px;
-  background-color: lightgrey;
+  background-color: hsla(267, 3%, 70%, .9);
   margin: 1em 3em 1em 0em;
   padding: 1em;
+  color: #1E1E55;
+  width: 60%;
+}
+
+.inline {
+  border-radius: 20px;
+  clear: none;
+  float: left;
+  margin: 0px 0.5em;
+  font-size: 2em;
+  max-width: 45%;
+}
+
+#extras {
+  float: right;
+  width: 34%;
+  min-height: 80vh;
 }
 
 #numberCorrect {
