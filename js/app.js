@@ -9,7 +9,7 @@
 var quizQuestions = ['Did I grow up in North Pole?', 'Do I believe that dogs are better than cats?', 'Am I taller than an average-size muskox?', 'Do I like puns?', 'Is my vision better than 20/20?', 'How many tattoos do I have?', 'Can you guess one of my top 5 favorite things to do outside of work?'];
 
 // answers
-var correctAnswers = ['yes', 'no', 'yes', 'yes', 'no', '2'];
+var correctAnswers = ['yes', 'no', 'yes', 'yes', 'no', 2];
 var incorrectAnswers = ['no', 'yes', 'no', 'no', 'yes'];
 var top5 = ['paint', 'hike', 'kayak', 'ski', 'game'];
 
@@ -81,7 +81,7 @@ var numberQuestion =  function(){
   while (remainingResponses > 0 && gotIt === false){
 
     // prompt the question
-    var guessedNumber = prompt(quizQuestions[pointer]);
+    var guessedNumber = Number(prompt(quizQuestions[pointer]));
     console.log('question ' + pointer + ' user guessed : ' + guessedNumber);
 
     // if they got the right answer, let them know, set the gotIt tracker to true to break the loop, and increment their number of correct responses

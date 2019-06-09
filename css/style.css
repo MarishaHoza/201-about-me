@@ -3,15 +3,15 @@
 }
 
 body {
-  background-color: palegreen;
+  background-color: #a40a44;
   /* margin: 0; */
   min-height: 100vh;
   font-family: monospace;
 }
 
 header {
-  background-color: #201d57;
-  color: white;
+  background-color: #a40a44;
+  color: #088542;
   display: fixed;
   height: auto;
   width: 101vw;
@@ -26,7 +26,7 @@ footer {
   width: 101vw;
   bottom: -10px;
   left: -10px;
-  background-color: #201d57;
+  background-color: #088542;
   height: auto;
   color: white;
   text-align: center;
@@ -50,7 +50,7 @@ main>ul {
 section {
   box-shadow: 2px 3px 2px 3px rgb(32, 32, 32, 0.5);
   border-radius: 30px 10px;
-  background-color: #c8ecc7;
+  background-color: lightgrey;
   margin: 1em 3em 1em 0em;
   padding: 1em;
 }
